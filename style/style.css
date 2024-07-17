@@ -9,7 +9,6 @@
 
 body{
     font-family: "Inter", sans-serif;
-    /* font-family: "Dancing Script", cursive; */
     width: 100%;
     color: white;
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
@@ -59,3 +58,83 @@ padding: 8px 20px;
     font-weight: 400;
     font-size: 1.25rem;    
 }
+
+/* banner section style here */
+.banner-section-container {
+    width: 80%;
+    height: 580px;
+    border: 2px solid tomato;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+}
+
+.banner-section-text-content {
+
+    border: 2px solid skyblue;
+    width: 80%;
+}
+.banner-section-text-content h2 {
+    font-size: 5rem;
+    font-weight: 900;
+line-height: 120%;
+}
+.banner-section-text-content p {
+color: rgba(255, 255, 255, 0.5);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+margin-top: 20px;
+margin-bottom: 25px;
+}
+
+#banner-shape-text{
+    font-family: "Dancing Script", cursive;
+    font-size: 7rem;
+    font-weight:normal;
+
+
+}
+.banner-first-btn {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 16px 40px;
+    border-radius: 42px;
+background: rgb(230, 83, 60);
+border: none;
+margin-right: 10px;
+}
+
+.banner-second-btn {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 60;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: none;
+    box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+
+
+}
+.banner-section-img-content {
+
+    border: 2px solid skyblue;
+    width: 50%;
+    margin-left: 24px;
+}
+
+.banner-section-img-content img {
+    /* width:100%; */
+    margin-left: 50px;
+
+}
+
+
+
+
