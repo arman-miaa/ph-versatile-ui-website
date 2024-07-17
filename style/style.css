@@ -75,7 +75,7 @@ padding: 8px 20px;
 .banner-section-text-content {
 
     border: 2px solid skyblue;
-    width: 80%;
+    width: 50%;
 }
 .banner-section-text-content h2 {
     font-size: 5rem;
@@ -125,13 +125,14 @@ border: 1px solid rgb(255, 255, 255);
 .banner-section-img-content {
 
     border: 2px solid skyblue;
-    width: 50%;
+    /* width: 50%; */
     margin-left: 24px;
 }
 
 .banner-section-img-content img {
-    /* width:100%; */
+    width:85%;
     margin-left: 50px;
+    border: 1px solid salmon;
 
 }
 
