@@ -235,6 +235,89 @@ background: rgba(48, 48, 48, 0.54);
     font-size: 1rem;
 }
 
+/* main section style here */
+
+.main-container {
+    width: 1440px;
+    /* border: 1px solid red; */
+    /* height: 500px; */
+    padding-top: 90px;
+    background: rgb(0, 0, 0);
+}
+
+/* change section style */
+.change-text-des-content {
+    /* border: 1px solid blue; */
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.change-text-des-content h1 {
+    color: rgb(255, 255, 255);
+font-size: 3rem;
+font-weight: 900;
+line-height: 120%;
+margin: 15px 0px;
+}
+
+.change-text-des-content p {
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+}
+
+.change-img-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 58px;
+}
+
+.change-card {
+    /* border: 1px solid #0dd309; */
+    text-align: center;
+    /* height: 452px; */
+    
+}
+
+.change-card img {
+    /* width: 240px;
+height: 180px; */
+width: 220px;
+height: 220px;
+border-radius:50%;
+margin-bottom: 30px;
+
+}
+
+
+.change-card h3 {
+    color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+/* line-height: 120%; */
+margin: 15px 0px;
+}
+
+.change-card p {
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+/* border: 2px solid blue; */
+width: 80%;
+text-align: center;
+margin: 0 auto;
+letter-spacing: 0.3px;
+padding-bottom: 10px;
+/* margin: 6px 0px; */
+}
+
+
 
 
 
