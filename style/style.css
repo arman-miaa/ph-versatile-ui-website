@@ -76,6 +76,13 @@ padding: 8px 20px;
     font-weight: 400;
     font-size: 1.25rem;    
 }
+#menu-icon{
+    display: none;
+    /* display:hidden; */
+}
+#menu-icon {
+    display: none;
+}
 
 /* banner section style here */
 .banner-section-container {
@@ -95,7 +102,7 @@ padding: 8px 20px;
 
 .banner-section-text-content {
 
-    border: 2px solid skyblue;
+    /* border: 2px solid skyblue; */
     width: 55%;
 }
 .banner-section-text-content h2 {
@@ -228,3 +235,74 @@ background: rgba(48, 48, 48, 0.54);
 }
 
 
+
+
+
+/* responsive design here */
+
+/* mobile responsiv media query style here */
+@media screen and (max-width: 576px) {
+    .navbar-links-section {
+        display: none;
+    }
+    #menu-icon {
+        display: block;
+    }
+    .banner-section-container {
+        flex-direction: column;
+    }
+    .banner-section-text-content {
+        width: 100%;
+    }
+    .banner-section-text-content h2 {
+        font-size: 2.7rem;
+        font-weight: 900;
+    line-height: 120%;
+    }
+
+    .two-button  { 
+        /* border: 1px solid red; */
+        display: flex;
+       
+    }
+
+    .banner-first-btn {
+        padding: 16px 35px;
+    }
+    
+    #hidden-club{
+        display: none;
+    }
+    .banner-second-btn {
+        padding: 16px 35px;
+    }
+
+    .banner-section-img-content {
+
+        /* border: 2px solid skyblue; */
+        width: 100%;
+        /* width: 50%; */
+        /* margin-left: 24px; */
+        height: 100%;
+        position: relative;
+    
+    }
+    .img-over-box{
+        /* width: 210px;
+        height: 110px; */
+        width: 190px;
+        position: absolute;
+        top: 92px;
+    }
+
+    .img-over-box2 {
+        width: 185px;
+        /* height: 102px; */
+        position: absolute;
+        bottom: 263px;
+        left: -8px;
+    }
+
+
+
+}
