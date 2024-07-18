@@ -95,8 +95,8 @@ padding: 8px 20px;
 
 .banner-section-text-content {
 
-    /* border: 2px solid skyblue; */
-    width: 50%;
+    border: 2px solid skyblue;
+    width: 55%;
 }
 .banner-section-text-content h2 {
     font-size: 6rem;
