@@ -23,6 +23,7 @@ header{
     /* max-width: 1440px; */
     margin: 0 auto;
     /* border: 1px solid white; */
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     background-color: black;
 
 }
@@ -146,7 +147,7 @@ margin-right: 10px;
     border-radius: 42px;
     background: none;
     box-sizing: border-box;
-/* border: 1px solid rgb(255, 255, 255); */
+border: 1px solid rgb(255, 255, 255);
 
 
 }
