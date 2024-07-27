@@ -88,7 +88,7 @@ header {
 }
 #banner-shape-text {
   font-family: "Dancing Script", cursive;
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: normal;
 }
 
@@ -367,8 +367,9 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: rgba(50, 170, 217, 0.789);
-  background-blend-mode: darken;
+  /* background: rgba(6, 255, 210, 0.5), url("../images/exercise1.jpg"); */
+  background-color: rgba(6, 255, 210, 0.5);
+  background-blend-mode: lighten;
 }
 .first-img p {
   position: absolute;
@@ -384,11 +385,12 @@ header {
   grid-row: 1 / span 6;
   position: relative;
   background-image: url("../images/exercise2.png");
+  /* background: rgba(255, 0, 0, 0.3),url(image); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: rgba(176, 35, 7, 0.612);
-  background-blend-mode: darken;
+  background-color: rgba(255, 0, 0, 0.3);
+  background-blend-mode: lighten;
 }
 
 .second-img p {
@@ -406,7 +408,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: rgba(128, 128, 128, 0.527);
+  background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
 }
 
@@ -425,7 +427,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: rgba(20, 22, 22, 0.789);
+  background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
 }
 .fourth-img p {
@@ -451,8 +453,8 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: rgba(45, 225, 9, 0.487);
-  background-blend-mode: darken;
+  background-color: rgba(66, 255, 0, 0.3);
+  background-blend-mode: lighten;
 }
 .fifth-img p {
   position: absolute;
@@ -477,7 +479,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: rgba(177, 211, 223, 0.915);
+  background-color: rgba(0, 71, 255, 0.3);
   background-blend-mode: darken;
 }
 
@@ -492,6 +494,7 @@ header {
 .bmi-calculator-section-container {
   margin-top: 90px;
 }
+
 
 .bmi-text-des-content {
   width: 50%;
@@ -514,6 +517,7 @@ header {
   border-radius: 12px;
   backdrop-filter: blur(20px);
   background: rgba(48, 48, 48, 0.54);
+  padding-bottom: 50px;
 }
 .bmi-calculate-px-container {
   max-width: 1440px;
@@ -802,6 +806,7 @@ select {
   .banner-section-container {
     /* max-width: 1000px; */
     width: 100%;
+    /* height: auto; */
     padding: 40px;
     flex-direction: column;
   }
@@ -947,6 +952,24 @@ select {
   }
   .nav-hamburger-menu {
     display: block;
+  }
+  .banner-section-container {
+    height: auto;
+    width: 100%;
+    border: 2px solid green;
+  }
+  /* .banner-section-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 63vh;
+  margin: 0 auto;
+  margin-top: 40px;
+} */
+  .banner-text-content {
+    width: 100%;
+    margin: 0;
+    border: 2px solid red;
   }
 
   .banner-first-btn {
@@ -1124,6 +1147,9 @@ select {
   .calculate-bmi-content input,
   select {
     padding: 17px 23px;
+  }
+  .calculate-fifty-width {
+    width: 47%;
   }
 
   .calculate-bmi-btn {
