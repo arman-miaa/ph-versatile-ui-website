@@ -724,14 +724,14 @@ select {
 
 .choose-title-des-content {
   width: 65%;
-  /* border: 1px solid tomato; */
+  border: 1px solid tomato;
   margin: 0 auto;
   margin-bottom: 80px;
   text-align: center;
 }
 
 .choose-title-des-content h1 {
-  font-size: 4rem;
+  font-size: 3.75rem;
   font-weight: 900;
   margin-bottom: 16px;
 }
