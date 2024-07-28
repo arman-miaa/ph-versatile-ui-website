@@ -511,20 +511,18 @@ header {
 .bmi-text-des-content p {
   color: rgba(255, 255, 255, 0.662);
   font-size: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 40px; 
 }
 .bmi-calculate-below-container {
-  width: 100%;
+  max-width:1440px;
+  margin: 0 auto;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(20px);
   background: rgba(48, 48, 48, 0.54);
   padding-bottom: 50px;
 }
-.bmi-calculate-px-container {
-  max-width: 1440px;
-  margin: 0 auto;
-}
+
 
 .bmi-calculator-chart-container {
   width: 80%;
@@ -737,6 +735,10 @@ select {
   font-weight: 900;
   margin-bottom: 16px;
 }
+.choose-title-des-content p {
+    color: rgba(255, 255, 255, 0.662);
+}
+
 #choose-color-text {
   color: rgb(230, 83, 60);
 }
@@ -767,6 +769,8 @@ select {
 }
 .choose-box-item p {
   line-height: 25px;
+    color: rgba(255, 255, 255, 0.662);
+
 }
 
 /* footer section style */
@@ -1279,6 +1283,7 @@ select {
   font-weight: 700;
   margin-bottom: 10px;
 }
+
 
   .choose-box-items {
     width: 100%;
