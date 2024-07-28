@@ -714,7 +714,6 @@ select {
 /* choose section style here */
 
 .choose-main-container {
-  /* border: 2px solid red; */
   max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -726,7 +725,7 @@ select {
 }
 
 .choose-title-des-content {
-  width: 52%;
+  width: 65%;
   /* border: 1px solid tomato; */
   margin: 0 auto;
   margin-bottom: 80px;
@@ -739,7 +738,7 @@ select {
   margin-bottom: 16px;
 }
 #choose-color-text {
-    color: rgb(230, 83, 60);
+  color: rgb(230, 83, 60);
 }
 .choose-box-items {
   display: grid;
@@ -747,11 +746,10 @@ select {
   gap: 30px;
   padding: 25px;
   /* border: 2px solid blue; */
-    border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.1);
-
 }
 .choose-box-item {
   /* border: 1px solid rgb(230, 83, 60); */
@@ -765,7 +763,7 @@ select {
 }
 .choose-box-item h3 {
   font-size: 2rem;
-    color: rgb(230, 83, 60);
+  color: rgb(230, 83, 60);
 }
 .choose-box-item p {
   line-height: 25px;
@@ -982,6 +980,25 @@ select {
   /* meet section responsive */
   .meet-text-des-content {
     width: 65%;
+  }
+  /* choose section responsive for tablet  */
+.choose-section-container {
+  width: 90%;
+}
+  .choose-title-des-content {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  .choose-title-des-content h1 {
+    font-size: 3.75rem;
+  }
+ 
+  .choose-box-items {
+    margin-top: 10px;
+  }
+  
+  .choose-box-item {
+    padding: 20px;
   }
 
   /* footer section style */
@@ -1243,6 +1260,36 @@ select {
   .meet-four-img {
     display: none;
   }
+  /* choose section mobile responsive */
+  .choose-main-container {
+    /* border: 2px solid blue; */
+    width: 100%;
+  }
+  .choose-section-container {
+    width: 90%;
+  }
+.choose-title-des-content {
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+  /* border: 2px solid green; */
+}
+.choose-title-des-content h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+  .choose-box-items {
+    width: 100%;
+grid-template-columns:1fr;
+  gap: 30px;
+  padding: 0;
+
+}
+
+
+  /* footer section mobile responsive */
   .footer-section-container {
     display: flex;
     flex-direction: column;
@@ -1251,6 +1298,5 @@ select {
     width: 100%;
     padding-left: 15px;
 
-    border: 2px solid blue;
   }
 }
