@@ -724,7 +724,7 @@ select {
 
 .choose-title-des-content {
   width: 65%;
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
   margin: 0 auto;
   margin-bottom: 80px;
   text-align: center;
