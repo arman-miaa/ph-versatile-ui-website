@@ -1,4 +1,5 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama?styles=170364");
 
 * {
   margin: 0;
@@ -11,11 +12,11 @@ body {
   color: white;
   font-family: "Inter", sans-serif;
 }
+
 /* header section style here */
 header {
   max-width: 1440px;
   margin: 0 auto;
-  /* border: 1px solid green; */
   background: linear-gradient(
     180deg,
     rgb(17, 17, 17),
@@ -26,13 +27,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 2px;
-  /* max-width: 1220px; */
+  padding: 40px 2px 20px;
   max-width: 80%;
-  /* border: 2px solid red; */
   margin: 0 auto;
-  margin-top: 20px;
 }
+
 .nav-logo-content h3 {
   font-size: 2.25rem;
   font-weight: 800;
@@ -57,10 +56,8 @@ header {
 
 /* banner section style here */
 .banner-section-container {
-  /* border: 1px solid blue; */
   display: flex;
   justify-content: space-between;
-  /* gap: 20px; */
   width: 80%;
   height: 63vh;
   margin: 0 auto;
@@ -69,13 +66,12 @@ header {
 
 .banner-text-content {
   width: 50%;
-  /* border: 1px solid skyblue; */
   margin-top: 30px;
 }
 .banner-text-content h1 {
   font-size: 4.25rem;
   font-weight: 900;
-  line-height: 120%;
+  line-height: 110%;
 }
 .banner-text-content p {
   color: rgba(255, 255, 255, 0.5);
@@ -87,7 +83,7 @@ header {
   margin-bottom: 25px;
 }
 #banner-shape-text {
-  font-family: "Dancing Script", cursive;
+  font-family: "Miama", sans-serif;
   font-size: 5rem;
   font-weight: normal;
 }
@@ -119,16 +115,8 @@ header {
 .banner-img-content {
   width: 40%;
   height: 100%;
-  /* border: 1px solid skyblue; */
   position: relative;
 }
-/* .banner-img-content img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border: 1px solid red;
-  
-} */
 #right-img {
   width: 100%;
   height: 100%;
@@ -136,7 +124,7 @@ header {
 }
 
 .img-over-box {
-  width: 160px;
+  width: 170px;
   height: 90px;
   padding: 10px 15px;
   position: absolute;
@@ -198,24 +186,19 @@ header {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.5);
 }
-
 /* main section style here */
 
 /* change section style here */
-
 .change-section-container {
-  /* border: 2px solid blue; */
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 60px;
 }
 .change-text-des-content {
-  /* border: 1px solid red; */
   text-align: center;
   width: 45%;
   margin: 0 auto;
 }
-
 .change-text-des-content h1 {
   color: rgb(255, 255, 255);
   font-size: 3rem;
@@ -233,8 +216,6 @@ header {
 }
 
 .change-img-content {
-  /* border: 1px solid green; */
-  /* display: flex; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
@@ -337,7 +318,6 @@ header {
   margin: 0 auto;
   margin-top: 60px;
 }
-
 .training-text-des-content h2 {
   font-size: 3rem;
 }
@@ -369,38 +349,37 @@ header {
   background-image: url("../images/exercise1.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  /* background: rgba(6, 255, 210, 0.5), url("../images/exercise1.jpg"); */
+  background-size: cover; 
   background-color: rgba(6, 255, 210, 0.5);
-  background-blend-mode: lighten;
+  background-blend-mode: overlay;
 }
+
 .first-img p {
   position: absolute;
   color: black;
   bottom: 10%;
   left: 10%;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .second-img {
   grid-column: 4 / span 6;
   grid-row: 1 / span 6;
   position: relative;
-  background-image: url("../images/exercise2.png");
-  /* background: rgba(255, 0, 0, 0.3),url(image); */
+  background-image: url("../images/exercise2.png"); 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: rgba(255, 0, 0, 0.3);
-  background-blend-mode: lighten;
+  background-blend-mode: overlay;
 }
 
 .second-img p {
   position: absolute;
   top: 10%;
   left: 10%;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .third-img {
@@ -412,14 +391,14 @@ header {
   background-position: center;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: darken;
+  background-blend-mode: overlay;
 }
 
 .third-img p {
   position: absolute;
   bottom: 10%;
   left: 10%;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .fourth-img {
@@ -431,7 +410,7 @@ header {
   background-position: center;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: darken;
+  background-blend-mode: overlay;
 }
 .fourth-img p {
   position: absolute;
@@ -457,7 +436,7 @@ header {
   background-position: center;
   background-size: cover;
   background-color: rgba(66, 255, 0, 0.3);
-  background-blend-mode: lighten;
+  background-blend-mode: overlay;
 }
 .fifth-img p {
   position: absolute;
@@ -483,7 +462,7 @@ header {
   background-position: center;
   background-size: cover;
   background-color: rgba(0, 71, 255, 0.3);
-  background-blend-mode: darken;
+  background-blend-mode: overlay;
 }
 
 .sixth-img p {
@@ -511,10 +490,10 @@ header {
 .bmi-text-des-content p {
   color: rgba(255, 255, 255, 0.662);
   font-size: 20px;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
 .bmi-calculate-below-container {
-  max-width:1440px;
+  max-width: 1440px;
   margin: 0 auto;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
@@ -522,7 +501,6 @@ header {
   background: rgba(48, 48, 48, 0.54);
   padding-bottom: 50px;
 }
-
 
 .bmi-calculator-chart-container {
   width: 80%;
@@ -736,7 +714,7 @@ select {
   margin-bottom: 16px;
 }
 .choose-title-des-content p {
-    color: rgba(255, 255, 255, 0.662);
+  color: rgba(255, 255, 255, 0.662);
 }
 
 #choose-color-text {
@@ -769,8 +747,7 @@ select {
 }
 .choose-box-item p {
   line-height: 25px;
-    color: rgba(255, 255, 255, 0.662);
-
+  color: rgba(255, 255, 255, 0.662);
 }
 
 /* footer section style */
@@ -986,9 +963,9 @@ select {
     width: 65%;
   }
   /* choose section responsive for tablet  */
-.choose-section-container {
-  width: 90%;
-}
+  .choose-section-container {
+    width: 90%;
+  }
   .choose-title-des-content {
     width: 90%;
     margin-bottom: 40px;
@@ -996,11 +973,11 @@ select {
   .choose-title-des-content h1 {
     font-size: 3.75rem;
   }
- 
+
   .choose-box-items {
     margin-top: 10px;
   }
-  
+
   .choose-box-item {
     padding: 20px;
   }
@@ -1153,20 +1130,24 @@ select {
   }
 
   .first-img {
-    grid-column: 1 / span 7;
+    grid-column: 1 / span 6;
     grid-row: 1 / span 6;
   }
   .first-img p {
     color: white;
+    font-weight: 600;
   }
 
   .second-img {
-    grid-column: 8 / span 12;
+    grid-column: 7 / span 12;
     grid-row: 1 / span 6;
+  }
+  .second-img p {
+    font-weight: bold;
   }
 
   .fourth-img {
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 5;
     grid-row: 7 / span 13;
   }
   .fourth-img p {
@@ -1174,10 +1155,11 @@ select {
   }
   .fourth-img h6 {
     display: block;
+    font-weight: bold;
   }
 
   .fifth-img {
-    grid-column: 7 / span 12;
+    grid-column: 6 / span 12;
     grid-row: 7 / span 13;
   }
   .fifth-img p {
@@ -1185,6 +1167,9 @@ select {
   }
   .fifth-img h6 {
     display: block;
+    .second-img p {
+      font-weight: bold;
+    }
   }
 
   .third-img {
@@ -1272,27 +1257,24 @@ select {
   .choose-section-container {
     width: 90%;
   }
-.choose-title-des-content {
-  width: 100%;
-  margin-bottom: 40px;
-  text-align: center;
-  /* border: 2px solid green; */
-}
-.choose-title-des-content h1 {
-  font-size: 2.25rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
+  .choose-title-des-content {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    /* border: 2px solid green; */
+  }
+  .choose-title-des-content h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
 
   .choose-box-items {
     width: 100%;
-grid-template-columns:1fr;
-  gap: 30px;
-  padding: 0;
-
-}
-
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0;
+  }
 
   /* footer section mobile responsive */
   .footer-section-container {
@@ -1302,6 +1284,8 @@ grid-template-columns:1fr;
     margin: 0;
     width: 100%;
     padding-left: 15px;
-
+  }
+  .last-footer-text p {
+    font-size: 14px;
   }
 }
