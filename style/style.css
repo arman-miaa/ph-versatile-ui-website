@@ -548,6 +548,7 @@ td {
   color: rgba(255, 255, 255, 0.5);
   margin-top: 20px;
   margin-bottom: 25px;
+  
 }
 .calculate-bmi-content input,
 select {
@@ -1023,15 +1024,10 @@ select {
     margin: 0;
     padding: 0;
   }
-  /* .banner-text-button {
-    
-  } */
-
+ 
   .banner-first-btn {
-    /* padding: 15px 35px; */
     width: 44%;
     font-weight: 400;
-    /* flex-basis: 1; */
     font-size: 1rem;
     padding: 16px 16px;
   }
@@ -1041,11 +1037,8 @@ select {
   }
 
   .banner-second-btn {
-    /* padding: 15px 10px; */
     width: 50%;
-    /* flex-basis: 1; */
     padding: 16px 16px;
-
     font-weight: 400;
     font-size: 1rem;
   }
@@ -1087,6 +1080,7 @@ select {
     width: 80%;
     margin: 0 auto;
     margin-top: 10px;
+    line-height: 24px;
   }
 
   .change-img-content {
@@ -1099,6 +1093,7 @@ select {
   }
   .change-img-content p {
     width: 50%;
+    line-height: 22px;
   }
 
   /* run section */
@@ -1106,6 +1101,9 @@ select {
     flex-direction: column;
     gap: 40px;
     width: 100%;
+  }
+  .run-text-des-section p {
+    line-height: 24px;
   }
 
   .run-section-btn {
@@ -1127,6 +1125,9 @@ select {
   }
   .training-text-des-content {
     width: 100%;
+  }
+  .training-text-des-content p {
+    line-height: 24px;
   }
 
   .first-img {
@@ -1195,6 +1196,8 @@ select {
   }
   .bmi-text-des-content p {
     margin-bottom: 25px;
+    line-height: 26px;
+    
   }
 
   .bmi-calculator-chart-container {
@@ -1217,6 +1220,9 @@ select {
   table {
     width: 100%;
   }
+  .calculate-bmi-content p {
+    line-height: 24px;
+  }
 
   .calculate-bmi-content input,
   select {
@@ -1230,11 +1236,14 @@ select {
     width: 55%;
     border-radius: 40px;
   }
-
+/* meet section styel */
   .meet-text-des-content {
     width: 65%;
     text-align: center;
     margin-top: 100px;
+  }
+  .meet-text-des-content p {
+    line-height: 24px;
   }
 
   .meet-img-content {
@@ -1251,9 +1260,9 @@ select {
   }
   /* choose section mobile responsive */
   .choose-main-container {
-    /* border: 2px solid blue; */
     width: 100%;
   }
+
   .choose-section-container {
     width: 90%;
   }
@@ -1261,12 +1270,14 @@ select {
     width: 100%;
     margin-bottom: 40px;
     text-align: center;
-    /* border: 2px solid green; */
   }
   .choose-title-des-content h1 {
     font-size: 2.25rem;
     font-weight: 700;
     margin-bottom: 10px;
+  }
+  .choose-title-des-content p {
+    line-height: 24px;
   }
 
   .choose-box-items {
@@ -1285,7 +1296,24 @@ select {
     width: 100%;
     padding-left: 15px;
   }
+  .left-section-content p {
+    line-height: 24px;
+  }
+  .middle-section-content h3 {
+    margin-top: 39px;
+  }
+  .right-section-content h3 {
+    margin-top: 39px;
+  }
+  .footer-horizontal-rule {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
   .last-footer-text p {
     font-size: 14px;
+    line-height: 24px;
+    margin: 15px 57px 25px 18px;
   }
 }
