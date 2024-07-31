@@ -573,6 +573,11 @@ select {
 #last-box {
   width: 98%;
   color: rgba(255, 255, 255, 0.5);
+  
+}
+#last-box option {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(16, 13, 13, 0.734);
 }
 
 .calculate-bmi-btn {
