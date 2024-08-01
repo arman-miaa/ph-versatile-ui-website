@@ -163,7 +163,7 @@ header {
   gap: 15px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(5px);
   background: rgba(48, 48, 48, 0.54);
 }
 
@@ -1029,6 +1029,15 @@ select {
     margin: 0;
     padding: 0;
   }
+  .banner-text-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 110%;
+}
+#banner-shape-text {
+  font-size: 3rem;
+  font-weight: normal;
+}
  
   .banner-first-btn {
     width: 44%;
@@ -1070,6 +1079,11 @@ select {
     height: 80px;
     bottom: 40%;
     left: 8%;
+  }
+    .img-over-box2 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
   }
 
   /* change section style */
