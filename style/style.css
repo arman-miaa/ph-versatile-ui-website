@@ -1030,9 +1030,8 @@ select {
     padding: 0;
   }
   .banner-text-content h1 {
-  font-size: 2.75rem;
-  font-weight: 700;
-  line-height: 110%;
+  font-size: 2.50rem;
+  /* font-weight: 700; */
 }
 #banner-shape-text {
   font-size: 2.75rem;
