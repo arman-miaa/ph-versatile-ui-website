@@ -69,9 +69,9 @@ header {
   margin-top: 30px;
 }
 .banner-text-content h1 {
-  font-size: 4.25rem;
-  font-weight: 900;
-  line-height: 110%;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 120%;
 }
 .banner-text-content p {
   color: rgba(255, 255, 255, 0.5);
@@ -84,7 +84,7 @@ header {
 }
 #banner-shape-text {
   font-family: "Miama", sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: normal;
 }
 .banner-text-button {
@@ -92,7 +92,7 @@ header {
 }
 
 .banner-first-btn {
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
   padding: 16px 25px;
@@ -192,7 +192,7 @@ header {
 .change-section-container {
   max-width: 1440px;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 100px;
 }
 .change-text-des-content {
   text-align: center;
@@ -307,7 +307,10 @@ header {
 .run-img-content img {
   width: 100%;
   border-radius: 20px;
+  /* object-fit: cover;
+  transform: scale(1.7); */
 }
+
 /* training section style here */
 .training-main-container {
   max-width: 1440px;
@@ -349,7 +352,7 @@ header {
   background-image: url("../images/exercise1.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   background-color: rgba(6, 255, 210, 0.5);
   background-blend-mode: overlay;
 }
@@ -367,7 +370,7 @@ header {
   grid-column: 4 / span 6;
   grid-row: 1 / span 6;
   position: relative;
-  background-image: url("../images/exercise2.png"); 
+  background-image: url("../images/exercise2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -548,7 +551,6 @@ td {
   color: rgba(255, 255, 255, 0.5);
   margin-top: 20px;
   margin-bottom: 25px;
-  
 }
 .calculate-bmi-content input,
 select {
@@ -573,7 +575,6 @@ select {
 #last-box {
   width: 98%;
   color: rgba(255, 255, 255, 0.5);
-  
 }
 #last-box option {
   color: rgba(255, 255, 255, 0.5);
@@ -1030,14 +1031,14 @@ select {
     padding: 0;
   }
   .banner-text-content h1 {
-  font-size: 2.50rem;
-  /* font-weight: 700; */
-}
-#banner-shape-text {
-  font-size: 2.75rem;
-  font-weight: normal;
-}
- 
+    font-size: 2.5rem;
+    /* font-weight: 700; */
+  }
+  #banner-shape-text {
+    font-size: 2.75rem;
+    font-weight: normal;
+  }
+
   .banner-first-btn {
     width: 44%;
     font-weight: 400;
@@ -1079,7 +1080,7 @@ select {
     bottom: 40%;
     left: 8%;
   }
-    .img-over-box2 p {
+  .img-over-box2 p {
     font-size: 12px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
@@ -1186,9 +1187,18 @@ select {
   }
   .fifth-img h6 {
     display: block;
-    .second-img p {
-      font-weight: bold;
-    }
+  }
+  .second-img {
+    /* object-fit: none;
+object-position: 60% 80%; */
+    background-size: 300%;
+    background-position: 72% 30%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .second-img p {
+    font-weight: bold;
   }
 
   .third-img {
@@ -1215,7 +1225,6 @@ select {
   .bmi-text-des-content p {
     margin-bottom: 25px;
     line-height: 26px;
-    
   }
 
   .bmi-calculator-chart-container {
@@ -1254,7 +1263,7 @@ select {
     width: 55%;
     border-radius: 40px;
   }
-/* meet section styel */
+  /* meet section styel */
   .meet-text-des-content {
     width: 65%;
     text-align: center;
@@ -1302,7 +1311,7 @@ select {
     width: 100%;
     grid-template-columns: 1fr;
     gap: 30px;
-    padding:20px;
+    padding: 20px;
   }
 
   /* footer section mobile responsive */
