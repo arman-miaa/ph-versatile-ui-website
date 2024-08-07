@@ -639,6 +639,7 @@ select {
 .meet-img-content p {
   margin-top: 5px;
   color: #ffffff9a;
+  font-weight: bold;
 }
 .meet-first-img {
   position: relative;
