@@ -304,7 +304,7 @@ header {
   width: 40%;
   background-image: url("../images/run.jpg");
   background-repeat: no-repeat;
-  background-position:66% 30%;
+  background-position:66% 28%;
   border-radius: 20px;  
 }
 
@@ -1139,7 +1139,8 @@ select {
   }
 
   .run-img-content {
-    width: 100%;
+    width: 100%;   
+  background-size: cover;
   }
 
   /* training section */
