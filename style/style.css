@@ -918,7 +918,6 @@ select {
 
   .run-img-content {
     width: 100%;
-    height:312px;
   } 
   /* training section */
   .training-main-container {
@@ -1141,6 +1140,8 @@ select {
   .run-img-content {
     width: 100%;   
   background-size: cover;
+    height:250px;
+
   }
 
   /* training section */
