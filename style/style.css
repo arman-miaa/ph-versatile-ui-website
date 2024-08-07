@@ -306,7 +306,7 @@ header {
 
 .run-img-content img {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 20px;  
   /* object-fit: cover;
   transform: scale(1.7); */
 }
@@ -705,12 +705,10 @@ select {
 .choose-section-container {
   width: 80%;
   margin: 0 auto;
-  /* border: 2px solid green; */
 }
 
 .choose-title-des-content {
   width: 65%;
-  /* border: 1px solid tomato; */
   margin: 0 auto;
   margin-bottom: 80px;
   text-align: center;
@@ -784,6 +782,7 @@ select {
   width: 80%;
   margin: 0 auto;
 }
+
 
 .left-section-content h1 {
   font-size: 4.25rem;
@@ -991,6 +990,7 @@ select {
   }
 
   /* footer section style */
+
   .footer-section-container {
     grid-template-columns: repeat(12, 1fr);
     margin-left: 42px;
@@ -1096,14 +1096,19 @@ select {
     width: 100%;
     padding: 10px;
   }
+  .change-text-des-content h1{
+    font-size: 34px;
+    width: 100%;
+  }
   .change-text-des-content p {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
     margin-top: 10px;
     line-height: 24px;
   }
 
   .change-img-content {
+    margin-top: 35px;
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1111,8 +1116,15 @@ select {
     margin-bottom: 5px;
     margin-top: 10px;
   }
+  .change-card {
+    margin-bottom: 30px;
+  }
+  .change-card h3 {
+    margin-top: 20px;
+    margin-bottom: 6px;
+  }
   .change-img-content p {
-    width: 50%;
+    width: 65%;
     line-height: 22px;
   }
 
@@ -1121,6 +1133,7 @@ select {
     flex-direction: column;
     gap: 40px;
     width: 100%;
+    margin-top: 25px;
   }
   .run-text-des-section p {
     line-height: 24px;
@@ -1142,9 +1155,13 @@ select {
   .training-section-container {
     width: 100%;
     padding: 20px;
+    margin-top: 35px;
   }
   .training-text-des-content {
     width: 100%;
+  }
+  .training-text-des-content h2{
+    font-size: 35px;
   }
   .training-text-des-content p {
     line-height: 24px;
@@ -1211,10 +1228,13 @@ object-position: 60% 80%; */
   }
 
   /* bmi section */
+  .bmi-calculator-section-container {
+    margin-top: 20px;
+  }
   .bmi-calculator-chart-container {
     flex-direction: column;
     width: 100%;
-    padding: 70px 10px 0px;
+    padding: 30px 10px 0px;
     gap: 30px;
     margin-top: 30px;
   }
@@ -1223,9 +1243,12 @@ object-position: 60% 80%; */
     width: 100%;
     padding-left: 15px;
   }
+  .bmi-text-des-content h2 {
+    font-size: 32px;
+  }
   .bmi-text-des-content p {
     margin-bottom: 25px;
-    line-height: 26px;
+    line-height: 29px;
   }
 
   .bmi-calculator-chart-container {
@@ -1243,13 +1266,20 @@ object-position: 60% 80%; */
 
   .bmi-calculator-chart-content h1 {
     width: 100%;
+    font-size: 20px;
+  }
+  .calculate-bmi-content h2 {    font-size: 20px;
+  }
+  .calculate-bmi-content p {    
+    margin-top: 10px;
   }
 
   table {
     width: 100%;
+    margin-top: 15px;
   }
   .calculate-bmi-content p {
-    line-height: 24px;
+    line-height: 25px;    
   }
 
   .calculate-bmi-content input,
@@ -1264,14 +1294,23 @@ object-position: 60% 80%; */
     width: 55%;
     border-radius: 40px;
   }
-  /* meet section styel */
+  /* meet section style */
+  .meet-section-container {
+  padding-bottom: 50px;
+}
+
   .meet-text-des-content {
-    width: 65%;
+    width: 85%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
+  }
+  .meet-text-des-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
   }
   .meet-text-des-content p {
     line-height: 24px;
+    margin-bottom: 30px;
   }
 
   .meet-img-content {
@@ -1289,6 +1328,7 @@ object-position: 60% 80%; */
   /* choose section mobile responsive */
   .choose-main-container {
     width: 100%;
+    margin-bottom: 60px;    
   }
 
   .choose-section-container {
@@ -1314,34 +1354,50 @@ object-position: 60% 80%; */
     gap: 30px;
     padding: 20px;
   }
+  .choose-box-item h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+  .choose-box-item h3 {
+  font-size: 1.32rem;
+  font-weight: bold;
+}
 
   /* footer section mobile responsive */
+    .footer-main-section {
+  padding-top: 0px;
+}
+  .footer-container {
+  padding-top: 0px;
+}
   .footer-section-container {
     display: flex;
     flex-direction: column;
-    /* margin-left: 15px; */
     margin: 0;
+    gap: 15px;
     width: 100%;
     padding-left: 15px;
   }
+  .left-section-content h1 {
+  margin-bottom: 15px;
+}
   .left-section-content p {
     line-height: 24px;
   }
-  .middle-section-content h3 {
-    margin-top: 39px;
-  }
+
   .right-section-content h3 {
-    margin-top: 39px;
+    margin-top: 20px;
+
   }
   .footer-horizontal-rule {
     width: 90%;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 10px;
   }
 
   .last-footer-text p {
     font-size: 14px;
     line-height: 24px;
-    margin: 15px 57px 25px 18px;
+    margin: 0px 57px 0px 18px;
   }
 }
