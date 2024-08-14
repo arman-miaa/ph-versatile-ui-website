@@ -260,11 +260,12 @@ header {
 .run-main-container {
   max-width: 1440px;
   margin: 0 auto;
+  margin-top: 80px;
+
 }
 .run-section-container {
   width: 80%;
   margin: 0 auto;
-  margin-top: 60px;
   border: 1px solid red;
   display: flex;
   justify-content: space-between;
@@ -315,11 +316,12 @@ header {
 .training-main-container {
   max-width: 1440px;
   margin: 0 auto;
+  margin-top: 80px;
+
 }
 .training-section-container {
   width: 80%;
   margin: 0 auto;
-  margin-top: 60px;
 }
 .training-text-des-content h2 {
   font-size: 3rem;
@@ -652,10 +654,7 @@ select {
   bottom: 10%;
   left: 10%;
 }
-/* .meet-first-img p {
-    margin-top: 10px;
-    color: #ffffff9a;
-} */
+
 
 .meet-second-img {
   position: relative;
